@@ -7,6 +7,7 @@ describe('index.js: ', function() {
 
 describe('isString.js: ', function () {
   it('isString should work fine.', function () {
-    expect(isString(1)).toBe(true)
+    expect(isString('1')).toBe(true)
+    expect(isString(1)).toBe(false)
   })
 })
