@@ -80,5 +80,5 @@ module.exports = function(config) {
     baseConfig.singleRun = true
   }
 
-  config.set()
+  config.set(baseConfig)
 }
